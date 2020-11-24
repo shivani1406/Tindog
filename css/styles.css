@@ -1,0 +1,156 @@
+#title{
+  background: -webkit-gradient(linear, left right, left right, from(#FA293A), to(#ef8172));
+  background: linear-gradient(180deg, #FA293A, #ef8172);
+  width: 100%;
+  min-height: 50vh;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1 {
+font-family: "Montserrat";
+font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+body{
+  font-family: Montserrat;
+}
+/* Navigation Bar  */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download button */
+.download-button{
+  margin:3% 5% 3% 0;
+}
+/* Title image */
+.title-image{
+  width:60%;
+  transform:rotate(30deg);
+  position: absolute;
+  right:30%;
+}
+/* Icon style */
+.icon-style{
+  font-size: 3.5em;
+  color: #ef8172;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icon-style:hover{
+  color:red;
+}
+#features{
+  padding: 5% 10%;
+  background-color: #fff;
+  position: relative;
+
+}
+.box-center{
+  text-align: center;
+  padding: 2%;
+  /* padding: 20px 20px; */
+}
+h3{
+  font-weight:bold;
+  font-size: 1rem;
+}
+p{
+  font-weight: lighter;
+  color: grey;
+  font-size: 0.9rem;
+}
+#testimonials{
+  background: -webkit-gradient(linear, left right, left right, from(#FA293A), to(#ef8172));
+  background: linear-gradient(180deg, #FA293A, #ef8172);
+
+    color:#fff;
+    text-align: center;
+}
+.carousel-item{
+  padding: 3% 10%;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background: -webkit-gradient(linear, left right, left right, from(#FA293A), to(#ef8172));
+  background: linear-gradient(360deg, #FA293A, #ef8172);
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo-image{
+  width:15%;
+  margin:20px 20px 50px;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background: -webkit-gradient(linear, left right, left right, from(#FA293A), to(#ef8172));
+  background: linear-gradient(360deg, #FA293A, #ef8172);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.cta-heading{
+font-family: "Montserrat";
+font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+#footer
+{
+  text-align: center;
+  padding:50px 0px 20px;
+}
+.footer-icon{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+@media (max-width:1028px)
+{
+  .title-image{
+    position: static;
+    transform:rotate(0deg);
+  }
+  #title {
+  text-align: center;
+}
+#cta{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+}
